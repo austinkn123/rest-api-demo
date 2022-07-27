@@ -1,0 +1,10 @@
+micronaut:
+  server:
+    cors:
+      enabled: true
+  application:
+    name: demo
+netty:
+  default:
+    allocator:
+      max-order: 3
